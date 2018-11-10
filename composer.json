@@ -1,0 +1,25 @@
+{
+    "name": "genasyst/php-compressor",
+    "description": "PHP code compressor or obfuscator",
+    "keywords": ["php", "compressor", "obfuscator"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/genasyst/phpCompressor",
+    "authors": [
+        {
+            "name": "Gennadiy Ryzhov",
+            "email": "support@genasyst.ru",
+            "homepage": "http://genasyst.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "nikic/php-parser": "v3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Genasyst\\phpCompressor\\": "src"
+        }
+    }
+}
