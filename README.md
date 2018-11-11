@@ -78,7 +78,7 @@ $compressor->compressObjectsMethodsName();
  *
  *
  * Set the exception of the names of local variables
- *
+ */
 $compressor->setExcludeNames(
     \Genasyst\phpCompressor\Compressor::COMPRESS_TYPE_LOCAL_VARIABLES,
     ['not_compress_local' => 'not_compress_local']
@@ -197,8 +197,8 @@ echo $code;
  * }
  * $a = new My('lONg', 'SuperLongUpper', 'NOT_compressed');
  * echo test1($a->a()); //Long ++
- * echo test1($a->b());//SUPERLONGUPPER ++
- * echo test1($a->thisMethodNameNotCompressed());//NOT_COMPRESSED  ++
+ * echo test1($a->b());//SUPERLONGUPPER 
+ * echo test1($a->thisMethodNameNotCompressed());//NOT_COMPRESSED  
 */
 
 ```
