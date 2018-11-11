@@ -41,7 +41,7 @@ class GlobalVisitor extends NodeVisitorAbstract
     {
         $global_scope = new  \Genasyst\phpCompressor\PhpParser\ScopeData\ScopeData();
       
-        $traverser = new  \Genasyst\phpCompressor\PhpParser\Traverses\MethodTraverser($this,'beforeNode', $global_scope);
+        $traverser = new  \Genasyst\phpCompressor\PhpParser\Traverses\MethodTraverser($this, 'beforeNode', $global_scope);
         $traverser->traverse($nodes);
         
         $traverser = new  \Genasyst\phpCompressor\PhpParser\Traverses\MethodTraverser($this,'leaveNode');

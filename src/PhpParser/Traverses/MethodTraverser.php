@@ -134,7 +134,7 @@ class MethodTraverser extends \PhpParser\NodeTraverser
                 $this->setScope($subNode);
 
                 $traverseChildren = true;
-                foreach ($this->visitors as $visitor) {
+                foreach ($this->getVisitors() as $visitor) {
                     $return = $visitor->enterNode($subNode);
                     if (self::DONT_TRAVERSE_CHILDREN === $return) {
                         $traverseChildren = false;
@@ -153,7 +153,7 @@ class MethodTraverser extends \PhpParser\NodeTraverser
                     }
                 }
 
-                foreach ($this->visitors as $visitor) {
+                foreach ($this->getVisitors() as $visitor) {
                     $return = null;
                     if (is_callable([$visitor, $this->method])) {
                         $return = $visitor->{$this->method}($subNode);
