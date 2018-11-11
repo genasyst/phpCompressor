@@ -1,6 +1,8 @@
 phpCompressor
 ==========
 
+[![Packagist](https://img.shields.io/packagist/dt/genasyst/php-compressor.svg?style=flat-square)](https://packagist.org/packages/genasyst/php-compressor)
+[![Github issues](https://img.shields.io/github/issues/genasyst/php-compressor.svg?style=flat-square)](https://github.com/genasyst/php-compressor/issues)
 
 phpCompressor - The main task of compressing PHP code, it is also possible to use as a simple PHP obfuscator. 
 The compressor compresses the code by removing spaces, line breaks code comment,
