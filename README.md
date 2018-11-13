@@ -1,7 +1,8 @@
 phpCompressor
 ==========
+View work and use compressor [DEMO](http://phpcompressor.genasyst.ru/index.php)
 
-README.RU.md [РУССКОЕ ОПИСАНИЕ](https://github.com/genasyst/phpCompressor/blob/master/README.RU.md)
+README.RU.md          [РУССКОЕ ОПИСАНИЕ](https://github.com/genasyst/phpCompressor/blob/master/README.RU.md)
 
 
 [![Packagist](https://img.shields.io/packagist/dt/genasyst/php-compressor.svg?style=flat-square)](https://packagist.org/packages/genasyst/php-compressor)
